@@ -1,0 +1,4 @@
+{
+  "dataPath": "data/tracker-data.json",
+  "description": "Path where tracker data will be stored. Can be absolute or relative to project root. Override with DATA_PATH environment variable."
+}
