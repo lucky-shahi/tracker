@@ -12,8 +12,7 @@ import {
   Bar,
 } from 'recharts'
 
-// Use relative URL when proxied through Vite, fallback to absolute for direct access
-const API_BASE_URL = import.meta.env.DEV ? '/api' : 'http://localhost:3001/api'
+const API_BASE_URL = '/api'
 
 const getCurrentMonthKey = () => {
   const now = new Date()
